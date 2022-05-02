@@ -21,7 +21,7 @@ try:
     if rana=="32bit":
         __import__("pro32").mysecurity()
     elif rana=="64bit":
-        __import__("pro").virus_baby()
+        __import__("pro").mysecurity()
     else:
         print(" We have issue to launch script")
         exit()
